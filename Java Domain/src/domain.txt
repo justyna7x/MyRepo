@@ -1,0 +1,14 @@
+My domain are customers, their loans, advisors and departments.
+Customer has an ID e.g., 8901 and a full name e.g., ‘John Smith’.
+•	Customers can take exactly one loan. When a customer is deleted their loan
+      	will be also deleted
+•	Customers can have only one advisor. When a customer is deleted
+       	their advisor is no longer connected to this customer
+Loans has an ID e.g., 8923479238, and the amount of money paid to customer e.g., 30 000.
+•	Loan can be taken by one customer. When a loan is deleted their customer is also deleted.
+Advisor has an ID e.g., 1 and a full name e.g., ‘Scott Jones’.
+•	Advisors can have one or more customers. When an advisor is deleted, customer is no longer connect to this advisor
+•	Advisors can belong to one or more departments.
+Departments have id e.g., 13 and the name of the department e.g., Mortgage Loans Department.
+•	Department can have one or more advisor. When an advisor is deleted their department is no longer connected to them.
+
